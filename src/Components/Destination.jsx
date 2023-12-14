@@ -283,7 +283,7 @@ function Destination() {
           </div>
         </div>
       </div>
-      <div className="te container">
+      <div className="te container di">
         <div className="row align-items-center row-cols-1 row-cols-lg-2 row-cols-md-2 row-cols-sm-2 g-4 mt-5">
           <div className="col">
             <div className="ftitle text-uppercase">Testimonials</div>
@@ -297,11 +297,11 @@ function Destination() {
             </div>
           </div>
           <div className="col">
-            <img src={comment} className="mt-5 back-img " />
+            <img src={comment} className="mt-5 back-img" />
           </div>
         </div>
       </div>
-      <div className="container logo mt-5">
+      <div className="container logo mt-5 di">
         <div className="row align-items-center row-cols-1 row-cols-lg-5 row-cols-md-4 row-cols-sm-2 g-4 mt-5">
           <div className="col">
             <img src={logo1} className="link-card" />
@@ -320,35 +320,29 @@ function Destination() {
           </div>
         </div>
       </div>
-      <div className="container contact back-contact mt-5 py-5 px-5">
+      <div className="container contact back-contact mt-5 py-5 px-5 wo">
         <div className="my-5"><br/>
         <div className="contact-ti mx-5 my-5">
           Subscribe to get information, latest news and other interesting offers
           about Jadoo
         </div>
-        <div classname="form">
-          <form className="row align-items-center row-cols-1 row-cols-lg-6 row-cols-md-4 row-cols-sm-2 g-4 mt-5">
-            <div className="col-auto">
-              
-            </div>
-            <div className="col-auto">
-              
-            </div>
-            <div className="col-auto">
-              <label htmlFor="inputPassword2" className="visually-hidden">
-                Password
-              </label>
+        <div className="form">
+          <form className="">
+            <div className="row align-items-center row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-sm-2 g-4 mt-5">
+              <div className="col col-wi"></div>
+            <div className="col-8 jen">
               <input
-                type="password"
-                className="form-control"
+                type="email"
+                className="form-control input with-icon"
                 id="inputPassword2"
-                placeholder="Password"
+                placeholder="Your email"
               />
             </div>
-            <div className="col-auto">
-              <button type="submit" className="btn btn-primary ">
-                Confirm identity
+            <div className="col-4 ms-4 jen">
+              <button type="submit" className="btn orange-button">
+                Subscribe
               </button>
+            </div>
             </div>
             <br/>
           </form>

@@ -15,6 +15,32 @@
   font-weight: 600;
   font-size: 18px;
 }
+.with-icon{
+  padding-left: 40px; 
+  background-image: url('assets/Group\ 46.svg'); 
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  background-size: 20px 20px;
+}
+.col-wi{
+width: 20%;
+}
+
+.input{
+  width: 421px;
+height: 68px;
+flex-shrink: 0;
+border-radius: 10px;
+}
+.orange-button{
+  color: white;
+  width: 180px;
+height: 68px;
+flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
+}
+
 .big-title{
   font-family: 'Volkhov', sans-serif;
   font-weight: 700;
@@ -85,6 +111,10 @@ box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px
     transition: 1s;
     cursor: pointer;
     }
+
+    .di{
+
+    }
     
     .link-card:hover{
       border-style: none !important;
@@ -114,7 +144,9 @@ height: 400px;
   .detination-col{
     width: 33%;
   }
-
+  .jen{
+   
+  }
   .detination-title{
     color: var(--TEXT-CLR, #5E6282);
 font-family:'Poppins', sans-serif;
@@ -186,23 +218,114 @@ background: var(--yellow, #F1A501) !important;
 box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
 color: white;
 }
+.footer-te{
+  color: var(--TEXT-CLR, #5E6282);
+font-family: 'Poppins','sans-serif';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; 
+  }
+  .black{
+    padding-top: 4px;
+    padding-left: 14px;
+    display: flex;
+    width: 107px;
+height: 35px;
+flex-shrink: 0;
+border-radius: 17.5px;
+background: var(--black, #080809);
+  }
+  .fooll{
+    color: var(--black, #080809);
+font-family: 'Poppins','sans-serif';
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%; /* 26.145px */
+  }
+  .fofdi{
+    color: var(--TEXT-CLR, #5E6282);
+font-family: 'Poppins','sans-serif';
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 24.9px */
+letter-spacing: 0.1px;
+  }
+  .fof{
+    color: var(--TEXT-CLR, #5E6282);
+font-family:'Poppins','sans-serif';
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; /* 16.185px */
+  }
+  .foolin{
+    color: var(--TEXT-CLR, #5E6282);
+font-family:'Poppins','sans-serif';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 124.5%; 
+  }
 
+  .inta{
+    margin-top: 6px;
+    margin-left: 41px;
+    border-radius: 36px;
+    padding-top: 14px;
+    padding-left: 15px;
+    display: flex;
+    width: 45px;
+height: 45px;
+flex-shrink: 0;
+    background: var(--angular, conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60.00000178813934deg, #C68BF0 106.09081864356995deg, #D164DA 153.7500035762787deg, #C963E8 221.24999284744263deg, #BFC2E8 258.75deg, #FFC999 288.7499928474426deg, #D0D8C9 315deg, #BAD0F1 334.13365602493286deg, #CED8CB 358.9677572250366deg, rgba(255, 255, 255, 0.00) 360deg));
+box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.10);
+  }
+
+  .logote{
+    color: var(--1st, #181E4B);
+font-family: 'Poppins','sans-serif';
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .foo {
+    border-radius: 496.864px;
+    opacity: 0.8;
+    position: relative; 
+  }
+  
+  .foo::before {
+    content: ''; 
+    position: absolute;
+    width: 191.945px;
+    height: 82.864px;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit; 
+    background: var(--d2, #D5AEE4);
+    filter: blur(75px); 
+    z-index: -1;
+  }
 body{
   background-image: url('assets/Ellipse\ 8.png');
   background-repeat: no-repeat;
   background-position: left;
-  background-size: auto; /* Maintain original size */
-  background-attachment: unset; /* Allow image to overflow */
-  height: 60vh; /* Set height to occupy full height */
+  background-size: auto; 
+  background-attachment: unset; 
+  height: 60vh;
 }
 .ban{
   background-image: url('assets/Decore.png');
   background-repeat: no-repeat;
   background-position: right;
-  background-size: auto; /* Maintain original size */
-  background-attachment: unset; /* Allow image to overflow */
-  height: 74vh; /* Set height to occupy full height */
-  width: 100vw; /* Set width to occupy full width */
+  background-size: auto; 
+  background-attachment: unset; 
+  height: 74vh; 
+  width: 100vw; 
 }
  .trav{
   background-image: url('assets/Traveller\ 1.png');
@@ -376,6 +499,20 @@ height: 78px;
   }
 }
  @media (max-width: 1399px) {
+  .contact-ti{
+   font-size: 24px;
+  }
+  .col-wi{
+    width: 18%;
+    }
+    .input{
+     width: 350px;
+    height: 60px;
+    }
+    .orange-button{
+      width: 180px;
+    height: 60px;
+    }
   .avion1{
     background-size: contain;
    } 
@@ -417,6 +554,21 @@ height: 78px;
   } 
 }
 @media (max-width: 1199px) {
+  .contact-ti{
+   font-size: 24px;
+   margin-left: -14px!important;
+  }
+  .col-wi{
+    width: 18%;
+    }
+    .input{
+     width: auto;
+    height: auto;
+    }
+    .orange-button{
+      width: auto;
+    height: auto;
+    }
   .big-title {
     font-family: 'Volkhov', sans-serif;
     font-weight: 700;
@@ -429,6 +581,9 @@ height: 78px;
 }
 }
 @media (max-width: 991px) {
+  .col-wi{
+    width: 0%;
+    }
   .trav{
     display: none;
   } 
@@ -489,6 +644,47 @@ height: 78px;
 }
 
 @media (max-width: 575px) {
+  .fooll{
+font-size: 16px;
+  }
+  .fofdi{
+font-size: 15px;
+  }
+  .fof{
+font-size: 13px;
+
+  }
+  .foolin{
+font-size: 13px;
+  }
+
+  .inta{
+    margin-top: 6px;
+    margin-left: 41px;
+  }
+
+  .logote{
+font-size: 30px;
+  }
+  .contact-ti{
+    font-size: 20px;
+    margin-left: -47px!important;
+   }
+   .col-wi{
+     width: 0%;
+     }
+     .input{
+    width: auto;
+     height: auto;
+     }
+     .orange-button{
+       width: auto;
+     height: auto;
+     }
+     .back-contact{
+      background-image: none;
+    }
+
  .avion-back{
  background-image: none;
  height: auto;
@@ -499,8 +695,22 @@ height: 78px;
 .back-img{
   display: none;
 }
+.di{
+      display: none;
+}
+.wo{
+  margin-top: -10vh !important;
+}
 }
 
+@media(max-width:513px){
+  .jen{
+    margin-left:-47px;
+  }
+  .input{
+    width: auto;
+  }
+}
 @media (max-width: 505px) {
   .playbtn{
     width: 40% !important;
@@ -515,6 +725,12 @@ height: 78px;
 }
 
 @media (max-width: 410px) {
+  .contact-ti{
+    font-size: 16px;
+  }
+  .input{
+    width: 55vw;
+  }
   .detination-mar {
     margin-top: 10vh;
   }

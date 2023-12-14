@@ -5,6 +5,7 @@ import MainComponent from './Components/MainComponent';
 import Ban from "./assets/Decore.png";
 import Category from './Components/Category';
 import Destination from './Components/Destination';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <MainComponent />
       <Category />
       <Destination />
+      <Footer />
     </div>
   );
 }
